@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Carrito</title>
+        <link rel="preload" href="/css/normalize.css" as="style">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="preload" href="/css/skeleton.css" as="style">
+        <link rel="stylesheet" href="/css/skeleton.css">
+        <link rel="preload" href="/css/styles.css" as="style">
+        <link rel="stylesheet" href="/css/custom.css">
+
+        <style>
+            
+.topnav {
+	overflow: hidden;
+	background-color: #2A4A0A;
+    margin-top: 3px;
+  }
+  
+  .topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	margin-left: 50px;
+  }
+  
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  .topnav a.active {
+	background-color: transparent;
+	color: white;
+  }
+  
+  .topnav .icon {
+	display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+	.topnav a:not(:first-child) {display: none;}
+	.topnav a.icon {
+	  float: right;
+	  display: block;
+	}
+  }
+  
+  @media screen and (max-width: 600px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive .icon {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+	.topnav.responsive a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+  }
+
+        </style>
+        <div class="topnav" id="myTopnav">
+            <a href="/index.php" class="active">Inicio</a>
+            <a href="/html/senderos.html">Senderos</a>
+            <a href="/html/contacto.html">Contacto</a>
+            <a href="/html/compras.html">Tienda</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          
+          <div style="padding-left:16px; margin-bottom: 10px;">
+            
+          </div>
+          
+          <script src="/js/topnav.js"></script>
+    </head>
+
+    <body>
+            <header id="header" class="header">
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div>
+        </header>
+
+        <div id="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="six columns">
+                        <div class="contenido-hero">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="barra">
+            <div class="container">
+                <div class="row">
+                    <div class="four columns icono icono1">
+                        <p>Realiza tus pedidos <br>
+                            y recibe nuestra respuesta.</p>
+                    </div>
+                    <div class="four columns icono icono2">
+                        <p>Envios a toda la republica<br>
+                            El costo de envio depende la zona</p>
+                    </div>
+                    <div class="four columns icono icono3">
+                        <p>Nuestro contacto es:<br>
+                            CELAdventures@outlook.com</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="lista-cursos" class="container">
+            <h1 id="encabezado" class="encabezado" style="font-family: 'Times New Roman', Times, serif;">Venta de miel y plantas</h1>
+        
+
+            <div class="row">
+                
+                <div class="four columns">
+
+                    <div class="card" style="height: 100%;">
+                        <img src="/img/vivero_2.jpg" class="imagen-curso u-full-width" alt="df">
+                        <div class="info-card">
+                            <h4>Orejon</h4>
+                            <p>Planta de vivero</p>
+                            <p class="precio">$20 <span class="u-pull-right ">$15</span></p>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="/img/vivero_4.jpg" class="imagen-curso u-full-width" alt="df">
+                        <div class="info-card">
+                            <h4>Ebano</h4>
+                            <p>Planta de vivero</p>
+                            <p class="precio">$20 <span class="u-pull-right ">$15</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="/img/vivero_1.jpg" class="imagen-curso u-full-width" alt="df">
+                        <div class="info-card">
+                            <h4>Planta</h4>
+                            <p>Vibero</p>
+                            <p class="precio">$20 <span class="u-pull-right ">$15</span></p>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+
+            </div> <!--.row-->
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="/img/vivero_8.jpg" class="imagen-curso u-full-width" alt="df">
+                        <div class="info-card">
+                            <h4>Huerto en casa</h4>
+                            <p>Lestradamus</p>
+                            <p class="precio">$20 <span class="u-pull-right ">$15</span></p>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="/img/vivero_6.jpg" class="imagen-curso u-full-width" alt="df">
+                        <div class="info-card">
+                            <h4>Planta</h4>
+                            <p>vibero</p>
+                            <p class="precio">$20 <span class="u-pull-right ">$15</span></p>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                    <div class="card">
+                        <img src="/img/vivero_7.jpg" class="imagen-curso u-full-width" alt="df">
+                        <div class="info-card">
+                            <h4>Planta</h4>
+                            <p>vibero</p>
+                            <p class="precio">$20 <span class="u-pull-right ">$15</span></p>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="/img/Miel.jpg" class="imagen-curso u-full-width" alt="df">
+                        <div class="info-card">
+                            <h4>Miel virgen</h4>
+                            <p>CELA</p>
+                            <p class="precio">$200 <span class="u-pull-right ">$100</span></p>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+               
+               
+            </div> <!--.row-->
+            <div class="row">
+                
+                <div class="four columns">
+                    <!--.card-->
+                </div>
+                <div class="four columns">
+                <!--.card-->
+                </div>
+            </div> <!--.row-->
+        </div>
+        <div style="margin: 20px; padding: 30px; text-align: center;">
+            <h1 style="font-size: 4vh; color: #2A4A0A; font-family: Verdana, Geneva, Tahoma, sans-serif;"> <b> Instrucciones para solicitar productos </b></br></h1>
+          </br>
+            <p style="font-size: 2.5vh;">1. Descarga el catálogo para ver las características de lo que quieres pedir y solicita la lista de plantas y miel disponibles (ya que la disponibilidad varía cada mes), al correo:
+            </br> <b>CELAdventures@outlook.com ó celadventuras@gmail.com</b></br>
+            2. Envía tu pedido al mismo correo electrónico con tus datos (nombre, domicilio, teléfono, etc.) y el tipo de envío que prefieres (FEDEX o correos de México).
+            </br>3. Recibirás una respuesta con el costo total de tu pedido, el costo de envío y los datos para depósito a cuenta bancaria.
+            </br>4. Envíanos un correo electrónico con tus datos y  el comprobante de tu depósito.
+        
+            </p>
+          </div>
+        
+          <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="four columns">
+                        <nav id="principal" class="menu">
+                           
+                        </nav>
+                    </div>
+                    <div class="four columns">
+                        <nav id="secundaria" class="menu">
+                           
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="/js/carritto.js"></script>
+    </body>
+
+</html>
